@@ -36,7 +36,5 @@ class ZoomSegue: UIStoryboardSegue {
                 self.source.present(self.destination, animated: false, completion: nil)
             })
         }
-        
-        
     }
 }

@@ -33,6 +33,7 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -41,5 +42,32 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fb</string>
+        <string>instagram</string>
+        <string>tumblr</string>
+        <string>twitter</string>
+    </array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSAllowsLocalNetworking</key>
+        <true/>
+        <key>NSAllowsArbitraryLoadsInWebContent</key>
+        <true/>
+    </dict>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Adding events</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Taking pictures</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Taking Pictures </string>
+    <key>NSMotionUsageDescription </key>
+    <string>Interactive ad controls</string>
 </dict>
 </plist>
+

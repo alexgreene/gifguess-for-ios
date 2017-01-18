@@ -6,4 +6,9 @@
 //  Copyright © 2016 AlexGreene. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+
+class LettersView: UIView {
+    
+}

@@ -6,4 +6,13 @@
 //  Copyright © 2017 AlexGreene. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class HighlightCell: UITableViewCell {
+    
+    @IBOutlet weak var phraseLabel: UILabel!
+    
+    func configure(phrase: String) {
+        self.phraseLabel.text = phrase
+    }
+}

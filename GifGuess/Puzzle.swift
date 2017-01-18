@@ -6,4 +6,18 @@
 //  Copyright © 2016 AlexGreene. All rights reserved.
 //
 
-import Foundation
+class Puzzle {
+    
+    var id:Int = 0
+    var phrase:String = ""
+    var slices = [String]()
+    var highlight:Int = 0
+    
+    
+    init(id:Int, phrase:String, slices:String, highlight:Int) {
+        self.id = id
+        self.phrase = phrase
+        self.slices = [slices]
+        self.highlight = highlight
+    }
+}
